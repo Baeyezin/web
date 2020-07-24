@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOME </title>
+</head>
+<body>
+    <h1> ★ WECOME TO THE OUR STUDY ★ </h1>
+    <form action="index.html" method="post" enctype="multipart/form-data">
+        <p>name: <input type="text" name="name" value="이름"></p>
+        <p>address: 
+            <select name="주소">
+                <option>서울</option>
+                <option>경기</option>
+                <option>인천</option>
+                <option>충청</option>
+                <option>강원</option>
+                <option>전라</option>
+                <option>경상</option>
+                <option>제주</option>
+                <option>기타</option>
+
+            </select>
+        </p>
+        <p>id : <input type="text" name="id" value="아이디"></p>
+        <p>pwd : <input type="password" name="pwd" value="패스워드"></p>
+        <p>
+            <input type="file" name="profile">
+        </p>
+        <p>
+        <label for="txta">
+            determination : 
+        <textarea id="txta" cols="50" rows="1"></textarea>
+        </label> 
+        </p>
+        
+        <p>
+            <h4>성별</h4>
+            남자 : <input type="radio" name="sex" value="man">
+            여자 : <input type="radio" name="sex" value="woman">
+            아무거나 : <input type="radio" name="sex" value="etc.">
+        </p>
+        <p>
+            <h4>혈액형</h4>
+            A형 : <input type="radio" name="blood-type" value="A"> 
+            B형 : <input type="radio" name="blood-type" value="B"> 
+            AB형 : <input type="radio" name="blood-type" value="AB"> 
+            O형 : <input type="radio" name="blood-type" value="O">
+        </p>
+        <p>
+            <h4>분야</h4>
+            <label>백엔드 : <input type="checkbox" name="type" value="back-end"></label>
+            <label>프론트엔드 : <input type="checkbox" name="type" value="front-end"></label>
+            <label>풀스텍 : <input type="checkbox" name="type" value="full-stack"></label>
+        </p>
+
+        <p> 
+            <input type="submit">
+            <input type="button" value="버튼"> 
+            <input type="reset" value="취소">        
+        </p>
+    </form>
+    
+</body>
+</html>
